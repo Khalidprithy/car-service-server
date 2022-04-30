@@ -1,4 +1,21 @@
+One time for a PC
+
 1. Create heroku account
 2. verify email
 3. install heroku cli
 4. heroku login
+
+One time for each project
+
+1. heroku create 
+2. make sure to update git add & push
+3. git push heroku main
+4. Go to Heroku dashboard > Current project > Settings > Reveal Config
+5. Copy Paste config from env
+6. Make sure you have whiteListed all ip address to access mongodb
+
+Update server
+
+1. Make changes
+2. Make sure to update git add & push
+3. git push heroku main
